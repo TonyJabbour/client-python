@@ -220,4 +220,3 @@ class OpenCTIApiWork:
             return_value.append(node)
 
         return sorted(return_value, key=lambda i: i["timestamp"])
-
